@@ -1,0 +1,324 @@
+body{
+	background: #f8f8f8;
+}
+.frheader{
+	background-color: black;
+}
+.header{
+	height: 600px;
+	background: url(../images/black.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.eight{
+	color: yellow;
+	font-weight: 700;
+}
+
+.btn-outline-light{
+	border-radius: 100px;
+	margin-top: 150px;
+	display: table-cell bottom;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+ul li a{
+
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 30px;
+	line-height: 100px;
+	height: 100px;
+	position: relative;
+	z-index: 1;
+}
+
+ul li a:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #f00;
+	transition: .5s;
+	z-index: -1;
+
+}
+
+ul li a:hover:before{
+	height: 100%
+}
+
+img{
+	width: 50%;
+}
+.hrdiv{
+	border: 2px solid red;
+	width: 25%;
+}
+.team{
+	background: url(../images/black.jpg) no-repeat center;
+	background-size: cover;
+	height: 600px;
+	margin-top: 50px;
+}
+
+.display-3{
+	color: white;
+}
+.bold{
+	font-weight: 700;
+}
+.box1{
+	width: 25%;
+	border: 2px solid yellow;
+}
+.box2{
+	width: 20%;
+	border: 2px solid red;
+}
+
+.sd{
+	border:2px solid;
+	margin-top: 3rem;
+	width: 50%;
+}
+
+
+.sdd{
+	margin-top: 3rem;
+	margin-right: 0.25rem;
+	font-size: 2rem;
+	border: 3px solid;
+	text-decoration-color: yellow;
+	border-radius: 100%;
+	padding: 2rem;
+}
+
+.brd:hover{
+	background-color: #97E1E9;
+	padding-bottom: 0.5rem;
+	box-shadow: 5px 10px 10px 5px grey;
+}
+
+h3{
+	text-align: center;
+}
+
+.middler{
+	height: 600px;
+	background: url(../images/black.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.hsd{
+	margin:1rem 0 1rem 0;
+}
+
+.abus{
+	color: black;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.sdi{
+	border:2px solid;
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.habus{
+	color: black;
+}
+
+.middlerus{
+	height: 600px;
+	background: url(../images/black.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.sdi:hover{
+	box-shadow: 5px 10px 10px 5px grey;
+
+}
+
+
+.media 
+{
+  padding-top: 40px;
+}
+.media a:hover, .media a:focus
+{
+  text-decoration: none;
+  outline: none;
+}
+.media .media-left .icon 
+{
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 16px 6px;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 50%;
+}
+.media .media-left .icon::before
+{
+  font-size: 44px;
+}
+
+section{
+	background: #262626;
+	margin-top: 5rem;
+	padding: 0;
+
+}
+
+.sechab{
+	text-align: center;
+}
+
+.cont{
+	width: 1400px;
+	margin: 70px auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.cont .box{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background: #ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+
+.cont .box .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+
+.cont .box .imgBox .imgb{
+	width: 100%;
+	transition: transform 2s;
+}
+
+.cont .box:hover .imgBox .imgb{
+	transform: scale(1.2);
+}
+
+.cont .box .details{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0, 0, 0, .8);
+	transform: scaleY(0);
+	transition: transform .5s;
+
+}
+
+.cont .box:hover .details{
+	transform: scaleY(1);
+}
+
+
+
+.cont .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+
+.cont .box .details .content .conth2{
+
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #ff0;
+}
+
+.cont .box .details .content .contp{
+
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+#inputAddress{
+	height: 100px;
+
+}
+.send{
+	float: right;
+	width: 150px;
+}
+
+.copyright{
+	padding: 1rem;
+	background-color: #232323;
+	color: grey;
+	text-align: center;
+}
+
+#logo{
+	width: 15%;
+}
+
+@media screen and ( max-width: 1200px){
+	.container{
+		text-align: center;
+	}
+	.hrdiv{
+		margin: 0 auto;
+	}
+	.middler{
+		height: 100%;
+	}
+	.middlerus{
+		height: 100%;
+	}
+	.cont{
+		width: 100%;
+	}
+}
+
+
+@media screen and ( max-width: 767px){
+	.container{
+		text-align: center;
+	}
+	.hrdiv{
+		margin: 0 auto;
+	}
+	.middler{
+		height: 100%;
+	}
+	.middlerus{
+		height: 100%;
+	}
+	.cont{
+		width: 100%;
+	}
+
+	#logo{
+	width: 30%;
+	}
+}
+

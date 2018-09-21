@@ -1,0 +1,59 @@
+body{
+	background: #f8f8f8;
+}
+.frheader{
+	background-color: #343A40;
+}
+.header{
+	height: 400px;
+	background: url(../images/bg.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.main{
+	margin-top: 3rem;
+}
+.block{
+	padding: 1rem;
+	margin-bottom: 2rem;
+	background-color: #fff;
+	border-radius: border-radius;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3)
+}
+.footer{
+	padding: 2rem 0;
+	margin-top: 3rem;
+	background-color: #343A40;
+	color: #fff;
+}
+.copyright{
+	padding: 1rem;
+	background-color: #232323;
+	color: grey;
+	text-align: center;
+}
+.icons i{
+	font-size: 30px;
+	margin-right: 0.5rem;
+	color: #0071CE;
+	transition: all 0.3s ease;
+
+}
+.icons i:hover{
+	color: #eee;
+	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1199px){
+	.display-2{
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.display-2{
+		font-size: 2rem;
+	}
+}
+
